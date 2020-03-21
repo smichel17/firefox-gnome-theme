@@ -202,7 +202,7 @@ tab[selected]:-moz-window-inactive {
 	background-image: none !important;
 	border: 0 !important;
 	border-image: none !important;
-	border-bottom: 3px solid var(--gnome-tabbar-tab-active-border-bottom-color) !important;
+	border-bottom: 5px solid var(--gnome-tabbar-tab-active-border-bottom-color) !important;
 }
 .tab-background[selected=true]:-moz-window-inactive {
 	background-color: var(--gnome-inactive-tabbar-tab-active-background) !important;
@@ -221,7 +221,7 @@ tab[selected]:-moz-window-inactive {
 :root:not(:-moz-window-inactive) .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true]) {
 	background-color: var(--gnome-tabbar-tab-hover-background) !important;
 	border-image: none !important;
-	border-bottom: 3px solid var(--gnome-tabbar-tab-hover-border-bottom-color) !important;
+	border-bottom: 5px solid var(--gnome-tabbar-tab-hover-border-bottom-color) !important;
 }
 
 /* Tabs scroll buttons hover */
